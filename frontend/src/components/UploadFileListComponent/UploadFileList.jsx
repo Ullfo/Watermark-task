@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-export default function uploadFileList({ files, setFiles }) {
+export default function UploadFileList({ files, setFiles }) {
  const [drag, setDrag] = useState(false);
 
    //Drag form

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function processedFileList({ processedFiles }) {
+export default function ProcessedFileList({ processedFiles }) {
 
    //download processed IMG
       const downloadImage = (url) => {

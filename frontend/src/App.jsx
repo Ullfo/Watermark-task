@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react'
 import axios from 'axios'
 import './App.css'
-import UploadFileList from "./components/uploadFileList/uploadFileList";
-import ProcessedFileList from "./components/processedFileList/processedFileList";
+import UploadFileList from "./components/UploadFileListComponent/UploadFileList"
+import ProcessedFileList from "./components/ProcessedFileListComponent/ProcessedFileList"
 
 
 export default function App() {
