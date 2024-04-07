@@ -16,7 +16,7 @@ export class WatermarkService {
                .composite([{ input: watermarkPath }])
                .toBuffer();
             
-                  
+            
             const base64String = processedImage.toString('base64');
             const imageDataURL = `data:image/jpeg;base64,${base64String}`;
             processedFiles.push(imageDataURL);
