@@ -5,7 +5,7 @@
   "compilerOptions": {
     "deleteOutDir": true,
     "assets": [
-      { "include": "watermarkIMG/**", "outDir": "dist/", "watchAssets": true}
+      { "include": "assets/**", "outDir": "dist/", "watchAssets": true}
     ]
   }
 }
