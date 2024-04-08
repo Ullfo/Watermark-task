@@ -10,8 +10,8 @@ export class WatermarkController {
    @Post('')
    @UseInterceptors(FilesInterceptor('files'))
    async uploadFiles(@UploadedFiles() files: Express.Multer.File[]) {
-      //Path for our watermarkIMG
-      const watermarkPath = path.join(__dirname, '..', 'watermarkIMG', '160138.png');
+      //Path for our watermark
+      const watermarkPath = path.join(__dirname, '..', 'assets', 'watermark', 'default-wm.png');
 
       //Processing files
       const processedFiles = await this.watermarkService.prepareImage(files, watermarkPath);

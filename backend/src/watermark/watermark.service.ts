@@ -16,13 +16,13 @@ export class WatermarkService {
                .composite([{ input: watermarkPath }])
                .toBuffer();
             
-            
+            //convert buffer data to base64 data, that the frontend can understand our image urls
             const base64String = processedImage.toString('base64');
             const imageDataURL = `data:image/jpeg;base64,${base64String}`;
             processedFiles.push(imageDataURL);
 
          } catch (error) {
-            console.error(`error sthng on stage processedFile ${file.originalname}: ${error}`);
+            console.error(`error smth on stage processedFile ${file.originalname}: ${error}`);
          }
       }
       
