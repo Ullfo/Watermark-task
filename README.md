@@ -77,7 +77,7 @@ export class WatermarkController {
 }
 ```
 #### Service:
-In the Service we go through each file in the array and, thanks to the (Sharp) library, combine our watermark and image. After that we convert buffer data to base64 data, that the frontend can understand our image urls, and return string array with urls back to Controller
+In the Service we go through each file in the array and, thanks to the [Sharp](https://sharp.pixelplumbing.com/) library, combine our watermark and image. After that we convert buffer data to base64 data, that the frontend can understand our image urls, and return string array with urls back to Controller
 ```ts
 @Injectable()
 export class WatermarkService {
