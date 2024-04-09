@@ -2,14 +2,14 @@
 ### First container
  Here we can upload our files and also delete someone just clicking on it. Then press **Create watermark** to put a watermark on our images.
 
-![photo1](image.png)
+![image1](./doc/Git1.png)
 #### Also we can use DND to drop out files into the container
 
-![photo1](image.png)
+![image2](./doc/Git2.png)
 ### Second container
 Here we are Downloading our processed images.
 
-![photo1](image.png)
+![image3](./doc/Git3.png)
 
 ## Build Setup 
 
