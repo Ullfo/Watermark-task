@@ -3,24 +3,14 @@
  Here we can upload our files and also delete someone just clicking on it. Then press **Create watermark** to put a watermark on our images.
 
 <<<<<<< HEAD
-![image1](./doc/Git1.png)
+[image1](./doc/Git1.png)
 #### Also we can use DND to drop out files into the container
 
-![image2](./doc/Git2.png)
+[image2](./doc/Git2.png)
 ### Second container
 Here we are Downloading our processed images.
 
-![image3](./doc/Git3.png)
-=======
-![photo1](https://github.com/Ullfo/Photos/blob/master/Git1.png)
-#### Also we can use DND to drop out files into the container
-
-![photo2](https://github.com/Ullfo/Photos/blob/master/Git2.png)
-### Second container
-Here we are Downloading our processed images.
-
-![photo3](https://github.com/Ullfo/Photos/blob/master/Git3.png)
->>>>>>> 12dfc1bef69f3fce13c189f590cbd86bdc02c872
+[image3](./doc/Git3.png)
 
 ## Build Setup 
 
