@@ -2,6 +2,7 @@
 ### First container
  Here we can upload our files and also delete someone just clicking on it. Then press **Create watermark** to put a watermark on our images.
 
+<<<<<<< HEAD
 ![image1](./doc/Git1.png)
 #### Also we can use DND to drop out files into the container
 
@@ -10,6 +11,16 @@
 Here we are Downloading our processed images.
 
 ![image3](./doc/Git3.png)
+=======
+![photo1](https://github.com/Ullfo/Photos/blob/master/Git1.png)
+#### Also we can use DND to drop out files into the container
+
+![photo2](https://github.com/Ullfo/Photos/blob/master/Git2.png)
+### Second container
+Here we are Downloading our processed images.
+
+![photo3](https://github.com/Ullfo/Photos/blob/master/Git3.png)
+>>>>>>> 12dfc1bef69f3fce13c189f590cbd86bdc02c872
 
 ## Build Setup 
 
@@ -77,7 +88,7 @@ export class WatermarkController {
 }
 ```
 #### Service:
-In the Service we go through each file in the array and, thanks to the (Sharp) library, combine our watermark and image. After that we convert buffer data to base64 data, that the frontend can understand our image urls, and return string array with urls back to Controller
+In the Service we go through each file in the array and, thanks to the [Sharp](https://sharp.pixelplumbing.com/) library, combine our watermark and image. After that we convert buffer data to base64 data, that the frontend can understand our image urls, and return string array with urls back to Controller
 ```ts
 @Injectable()
 export class WatermarkService {
